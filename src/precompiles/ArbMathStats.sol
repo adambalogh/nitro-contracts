@@ -10,7 +10,7 @@ pragma solidity >=0.4.21 <0.9.0;
 interface ArbMathStats {
     /**
      * @notice Returns the standard deviation of input
-     * @return stddev represented as an int, with the given number of decimals taken
+     * @return stddev floating point number represented as an int, with the given number of decimals taken
      */
     function stdDev(int32[] memory input, uint8 returnDecimals) external returns (int256);
 }
