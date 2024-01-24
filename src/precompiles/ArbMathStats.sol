@@ -12,5 +12,5 @@ interface ArbMathStats {
      * @notice Returns the standard deviation of input
      * @return stddev floating point number represented as an int, with the given number of decimals taken
      */
-    function stdDev(int32[] memory input, uint8 returnDecimals) external returns (int256);
+    function stdDev(int32[] memory input, uint8 returnDecimals) external pure returns (int256);
 }
